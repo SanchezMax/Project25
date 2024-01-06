@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0C02E3B52B4981E7001E702D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C02E3B42B4981E7001E702D /* AppDelegate.swift */; };
-		0C02E3B72B4981E7001E702D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C02E3B62B4981E7001E702D /* SceneDelegate.swift */; };
 		0C02E3B92B4981E7001E702D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C02E3B82B4981E7001E702D /* ViewController.swift */; };
 		0C02E3BC2B4981E7001E702D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C02E3BA2B4981E7001E702D /* Main.storyboard */; };
 		0C02E3BE2B4981E8001E702D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C02E3BD2B4981E8001E702D /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		0C02E3B12B4981E7001E702D /* Project25.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project25.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C02E3B42B4981E7001E702D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C02E3B62B4981E7001E702D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0C02E3B82B4981E7001E702D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0C02E3BB2B4981E7001E702D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C02E3BD2B4981E8001E702D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				0C02E3B42B4981E7001E702D /* AppDelegate.swift */,
-				0C02E3B62B4981E7001E702D /* SceneDelegate.swift */,
 				0C02E3B82B4981E7001E702D /* ViewController.swift */,
 				0C02E3BA2B4981E7001E702D /* Main.storyboard */,
 				0C02E3BD2B4981E8001E702D /* Assets.xcassets */,
@@ -140,7 +137,6 @@
 			files = (
 				0C02E3B92B4981E7001E702D /* ViewController.swift in Sources */,
 				0C02E3B52B4981E7001E702D /* AppDelegate.swift in Sources */,
-				0C02E3B72B4981E7001E702D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +291,7 @@
 				DEVELOPMENT_TEAM = 75HJK5L45N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Project25/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Allow this please";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,6 +320,7 @@
 				DEVELOPMENT_TEAM = 75HJK5L45N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Project25/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Allow this please";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
